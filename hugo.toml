@@ -1,0 +1,53 @@
+## Basic Configuration
+baseURL = 'https://www.aromacredo.com/'
+languageCode = 'en-us'
+theme = 'hugo-goa'
+
+builddrafts = false
+canonifyurls = false
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Vitkati"
+title = "Test-Version! Aromacredo für Ihres Leben. Test-Version!"
+
+## Site Settings
+[params]
+intro = "Diese WEB-Site ist noch beim Aufbau! Test-Aromacredo für ein glückliches Leben"
+description = "Dufte für das Leben [Aromacredo](https://aromacredo.com)"
+authorimage = "logo-aromacredo-small.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Dufte, Aromatherapie"
+keywords = "dufte,aromatherapie,aromacredo"
+
+## Social Accounts
+[params.social]
+instagram = "aromacredo"
+email = "katja.atmen@gmail.com"
+
+
+[menu]
+[[menu.main]]
+    name = "posts"
+    weight = 100
+    url = "posts/"
+
+[[menu.main]]
+    name = "about"
+    weight = 200
+    url = "about/"
+
+[[menu.main]]
+    name = "Produkten/Dienstleistungen"
+    weight = 200
+    url = "products/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
