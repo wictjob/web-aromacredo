@@ -6,3 +6,5 @@ title = 'My First Post'
 
 **Test**
 Das ist _meine_ erste AromaCredo ##Web-Seite-Post##!
+Herzlichen Glückwunsch!
+
